@@ -18,7 +18,7 @@ class Level1: CCNode, CCPhysicsCollisionDelegate {
     weak var ground3: CCSprite!
     weak var ground4: CCSprite!
     weak var ground5: CCSprite!
-    
+    //test 
   /*  weak var invisibleWall1 : CCSprite!
     weak var invisibleWall2 : CCSprite!
     weak var invisibleWall3: CCSprite!

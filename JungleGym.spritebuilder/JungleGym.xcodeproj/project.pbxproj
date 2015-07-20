@@ -64,7 +64,6 @@
 		927F61BB196C771E000F43EF /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B1B545B91B542371007050D3 /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B545B81B542371007050D3 /* Level1.swift */; };
 		B1B545C51B542B1B007050D3 /* WinPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B545C41B542B1B007050D3 /* WinPopup.swift */; };
-		B1B545CE1B543F15007050D3 /* CCActionFollow+CurrentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B545CD1B543F15007050D3 /* CCActionFollow+CurrentOffset.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -178,8 +177,6 @@
 		927F61BF196C771E000F43EF /* JungleGym Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JungleGym Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B545B81B542371007050D3 /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
 		B1B545C41B542B1B007050D3 /* WinPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinPopup.swift; sourceTree = "<group>"; };
-		B1B545CC1B543F0F007050D3 /* CCActionFollow+CurrentOffset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CCActionFollow+CurrentOffset.h"; path = "../GameArchitecture-SpriteBuilder-Swift-master/GameArchitecture.spritebuilder/Source/CCActionFollow+CurrentOffset.h"; sourceTree = "<group>"; };
-		B1B545CD1B543F15007050D3 /* CCActionFollow+CurrentOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCActionFollow+CurrentOffset.m"; path = "../GameArchitecture-SpriteBuilder-Swift-master/GameArchitecture.spritebuilder/Source/CCActionFollow+CurrentOffset.m"; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -537,8 +534,6 @@
 		B77F1CCF17B978D8009739AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1B545CC1B543F0F007050D3 /* CCActionFollow+CurrentOffset.h */,
-				B1B545CD1B543F15007050D3 /* CCActionFollow+CurrentOffset.m */,
 				7A40365D19DDF896007B6E8F /* Platforms */,
 				7AFCD5DD19E9BDC200BCCCDA /* Bridging-Header.h */,
 				7AFCD5DB19E9BD9F00BCCCDA /* cocos2d.h */,
@@ -826,7 +821,6 @@
 				B1B545B91B542371007050D3 /* Level1.swift in Sources */,
 				B1B545C51B542B1B007050D3 /* WinPopup.swift in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
-				B1B545CE1B543F15007050D3 /* CCActionFollow+CurrentOffset.m in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
